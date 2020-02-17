@@ -10,27 +10,29 @@
     <link rel="icon" href="../images/favicon.png" type="image/favicon" sizes="16x16">
   </head>
   <body id="landing">
-    <div class="content">
-      <div class="header flex">
-        <i class="hamburger fas fa-bars"></i>
-        <div class="menu">
-          <div class="links">
+      <header class="header flex">
+        <section class="content">
+        <button class="hamburger fas fa-bars"></section>
+        <nav class="menu">
+          <div role='links' class="links">
             <h5>MENU</h5>
-            <a href="landing.html">&bull; Home</a>
-            <a href="order.html">&bull; Order a Cake</a>
-            <a href="gallery.html">&bull; The Gallery</a>
+            <a aria-label='home page' href="landing.html">&bull; Home</a>
+            <a aria-label='order a cake page' href="order.html">&bull; Order a Cake</a>
+            <a aria-label='the gallery page' href="gallery.html">&bull; The Gallery</a>
           </div>
-          <img class="cake-review" src="../images/cake_review.png">
-        </div>
-        <i class="close fas fa-times"></i>     
+          <img class="cake-review" src="../images/cake_review.png" alt="Beautifiul and delicious cakes. A satisified customer review">
+          <button class="close fas fa-times"></button>     
+        </nav>
         <a href="landing.html">
           <h2 class="logo"><img src="../images/cake_logo.png"></h2>
         </a>
-      </div>
+      </header>
       <div class="flex">
-        <div>
-          <img class="medium-image landing-image" src="../images/sprinkle_cake.jpeg">
-          <div class="margin-top--small medium-image-text"><img src="../images/cake_text.png"></div>
+        <!-- <div> -->
+          <img class="medium-image landing-image" src="../images/sprinkle_cake.jpeg" alt="Galaxy Layer Cake with sprinkles">
+          <!-- <div class="margin-top--small medium-image-text"> -->
+            <img class="margin-top--small medium-image-text" src="../images/cake_text.png">
+          <!-- </div> -->
         </div>
         <div class="description-text">
           <div>🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂</div>
